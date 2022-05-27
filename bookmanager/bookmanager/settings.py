@@ -29,7 +29,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+# zhuce/anzhuang ziyinyong
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 'book', # fangan1
+    # 'book.apps.BookConfig'  # fangan2
+    # lilunshangyaozhuceziyinyong, buzhucehuiyouwenti
+    
 ]
 
 MIDDLEWARE = [
