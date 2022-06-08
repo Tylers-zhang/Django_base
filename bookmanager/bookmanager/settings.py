@@ -37,10 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    # 'book', # fangan1
+    'book',  # fangan1
     # 'book.apps.BookConfig'  # fangan2
     # lilunshangyaozhuceziyinyong, buzhucehuiyouwenti
-    
+
 ]
 
 MIDDLEWARE = [
@@ -107,8 +107,10 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# set language
+LANGUAGE_CODE = 'zh-Hans'  # 'en-us'
 
+# set time-area
 TIME_ZONE = 'UTC'
 
 USE_I18N = True

@@ -21,8 +21,11 @@ from django.db import models
 class BookInfo(models.Model):
     # id
     name = models.CharField(max_length=10)
-
     # renwu xin fuzhi guo lai , houqi jiang yuanli
+
+    def __str__(self):
+        return self.name
+
 
 class PeopleInfo(models.Model):
     name = models.CharField(max_length=10)
